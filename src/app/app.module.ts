@@ -24,6 +24,8 @@ import { HeaderComponent } from './views/components/template/header/header.compo
 import { FooterComponent } from './views/components/template/footer/footer.component';
 import { NavComponent } from './views/components/template/nav/nav.component';
 import { HomeComponent } from './views/components/home/home.component';
+import { ClienteReadComponent } from './views/components/cliente/cliente-read/cliente-read.component';
+
 
 
 @NgModule({
@@ -32,7 +34,8 @@ import { HomeComponent } from './views/components/home/home.component';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    ClienteReadComponent,
   ],
   imports: [
     BrowserModule,
